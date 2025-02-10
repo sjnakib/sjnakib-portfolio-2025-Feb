@@ -14,31 +14,12 @@ const projects: {
   image: string;
 }[] = [
   {
-    title: 'Hystruct',
-    href: 'https://www.hystruct.com',
-    description: 'Scrape structured data from the web with AI',
-    image: '/hystruct.png',
+    title: '3DOF Robotic Arm Prototype',
+    href: 'https://github.com/consis-tency/3DOF',
+    description: 'Robotic Design, Code Generation and more',
+    image: '/3dof-robotic-arm.png',
   },
-  {
-    title: 'Glow',
-    href: 'https://glow.as',
-    description:
-      'A super simple way to create beautiful personal landing pages.',
-    image: '/glow.png',
-  },
-  {
-    title: 'FlagDB',
-    href: 'https://flagdb.com',
-    description:
-      'A personal project to build a database of flags from around the world',
-    image: '/flagdb.png',
-  },
-  {
-    href: 'https://github.com/alexpate/awesome-design-systems',
-    title: 'Awesome Design Systems',
-    description: 'A curated list of design systems',
-    image: '/awesome-design-systems.png',
-  },
+  // Add more projects here if needed
 ];
 
 export default async function Home() {
@@ -50,16 +31,13 @@ export default async function Home() {
     <main className="px-4 md:px-0">
       <section className="pb-14 border-b border-slate-300 mb-14">
         <h1 className="font-semibold text-4xl mb-4 text-slate-950">
-          Ciao, I’m Alex.
+          Hello, I’m Shafaat.
           <span className="block text-slate-500 font-normal text-2xl">
-            A product engineer from the UK based in Milan.
+            A hardware designer and robotics enthusiast from Bangladesh.
           </span>
         </h1>
         <p className="text-slate-700 text-lg md:text-xl leading-normal">
-          I work with leading-edge companies to create exceptional products. I
-          most recently worked with MoonPay to help make web3 accessible. Before
-          that, I built personal and business banking products for millions of
-          customers at Monzo.
+          I specialize in robotics and electronics, with proven project management and problem-solving skills. I am an active contributor to Team Atlas, IEEE BRAC University, and the Robotics Club.
         </p>
         <Link
           href="/info"
